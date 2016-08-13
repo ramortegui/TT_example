@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Another Template Toolkit Test Page</title>
+  </head>
+  <body>
+    <p>[% message %]</p>
+    <ul>
+    [% FOREACH number IN array %]
+      <li>[% number.number %] - [% number.value  %]</li> 
+    [% END %]
+    </ul>
+  </body>
+</html>
